@@ -1,0 +1,123 @@
+/*--------------------------------------------------- Header start ----------------------------------------------------*/
+.header{
+	display: grid;
+	max-width: 860px;
+	margin: auto;
+	border-bottom: 2px solid #7D1CFF;
+	height: 50px;
+}
+
+body {
+    background: linear-gradient(to left, #CB76FF, #E8C3FF, #CB76FF);
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+}
+
+li {
+	float: right;
+	font-size: 20px;
+}
+
+li:first-child {
+    float: left;
+	font-size: 30px;
+}
+
+li a {
+	display: block;
+	margin: 0 7px;
+	text-decoration: none;
+	color: #7D1CFF;
+}
+
+li:hover {
+	font-weight: bold;
+}
+
+#logo{
+	display: inline-block;
+	margin-top: -12px;
+
+}
+/*--------------------------------------------------- Header end ----------------------------------------------------*/
+
+
+
+/*--------------------------------------------------- Main Content Start ----------------------------------------------------*/
+.wrapper{
+	max-width: 860px;
+	margin: auto;
+}
+
+.maincontent{
+	display:  inline-block;
+	max-width: 530px;
+}
+
+.blogpost{
+	margin: 50px 0;	
+	border-bottom: 2px solid #7D1CFF;
+}
+
+.img{
+	display: block;
+	height: auto;
+	max-width: 530px;
+}
+
+.postheader{
+	display: block;
+	color: #7D1CFF;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+.button{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	display: block;
+	margin: 40px 40% 40px 40%;
+	background-color: #7D1CFF;
+	padding: 3px;
+	border-radius: 5px;
+	height: 25px;	
+}
+/*--------------------------------------------------- Main Content End ----------------------------------------------------*/
+
+/*--------------------------------------------------- Site Content Start ----------------------------------------------------*/
+.sidecontent {
+	display: inline-block;
+	float: right;
+	max-width: 232px;
+	margin-top: 54px;
+}
+
+.sideimg {
+	float: right;
+	max-width: 232px;
+	border-radius: 10px;
+}
+
+.article{
+	border-bottom: 2px solid #7D1CFF;
+	text-align: center;	
+}
+
+.articleheader{
+	display: block;
+	color: #7D1CFF;
+	font-weight: 800;
+	font-size: 20px;
+	padding: 10px 10px 10px 0;
+}
+/*--------------------------------------------------- Side Content End ----------------------------------------------------*/
+
+/*--------------------------------------------------- Footer Start ----------------------------------------------------*/
+.footer{
+	border-top:  3px solid #7D1CFF;
+}
+/*--------------------------------------------------- Footer End ----------------------------------------------------*/
